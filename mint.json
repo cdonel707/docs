@@ -1,15 +1,15 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Chris's API",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/applelogo.svg",
+    "light": "/logo/applelogo.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/apple.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#ce2029",
+    "light": "#edeae5",
+    "dark": "#800080",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
