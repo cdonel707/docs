@@ -1,97 +1,93 @@
 ---
-title: 'Development'
-description: 'Learn how to preview changes locally'
+title: 'Apple Tree Development'
+description: 'Learn how to grow and maintain healthy apple trees!'
 ---
 
-<Info>
-  **Prerequisite**: Please install Node.js (version 19 or higher) before proceeding.
-</Info>
+## Prepare Your Garden
 
-Step 1. Install Mintlify on your OS:
+Before you can start growing apple trees, you’ll need apple seeds or saplings, healthy soil, and a sunny location in your garden.
 
-<CodeGroup>
-
-```bash npm
-npm i -g mintlify
-```
-
-```bash yarn
-yarn global add mintlify
-```
-
-</CodeGroup>
-
-Step 2. Go to the docs are located (where you can find `mint.json`) and run the following command:
-
-```bash
-mintlify dev
-```
-
-The documentation website is now available at `http://localhost:3000`.
-
-### Custom Ports
-
-Mintlify uses port 3000 by default. You can use the `--port` flag to customize the port Mintlify runs on. For example, use this command to run in port 3333:
-
-```bash
-mintlify dev --port 3333
-```
-
-You will see an error like this if you try to run Mintlify in a port that's already taken:
-
-```md
-Error: listen EADDRINUSE: address already in use :::3000
-```
-
-## Mintlify Versions
-
-Each CLI is linked to a specific version of Mintlify. Please update the CLI if your local website looks different than production.
-
-<CodeGroup>
-
-```bash npm
-npm i -g mintlify@latest
-```
-
-```bash yarn
-yarn global upgrade mintlify
-```
-
-</CodeGroup>
-
-## Deployment
-
-<Tip>
-  Unlimited editors available under the [Pro
-  Plan](https://mintlify.com/pricing) and above.
-</Tip>
-
-You should see the following if the deploy successfully went through:
-
-<Frame>
-  <img src="/images/checks-passed.png" style={{ borderRadius: '0.5rem' }} />
-</Frame>
-
-## Troubleshooting
-
-Here's how to solve some common problems when working with the CLI.
+### Planting Your Tree
 
 <AccordionGroup>
-  <Accordion title="Mintlify is not loading">
-    Update to Node v18. Run `mintlify install` and try again.
+  <Accordion icon="apple-alt" title="Step 1: Prepare the Soil">
+    First, ensure your soil is well-drained and slightly acidic. Dig a hole twice the width of the root ball and deep enough to accommodate the roots. Gently place the sapling or seed in the hole.
   </Accordion>
-  <Accordion title="No such file or directory on Windows">
-Go to the `C:/Users/Username/.mintlify/` directory and remove the `mint`
-folder. Then Open the Git Bash in this location and run `git clone
-https://github.com/mintlify/mint.git`.
-
-Repeat step 3.
-
-  </Accordion>
-  <Accordion title="Getting an unknown error">
-    Try navigating to the root of your device and delete the ~/.mintlify folder.
-    Then run `mintlify dev` again.
+  <Accordion icon="utensils" title="Step 2: Plant and Water">
+    After placing the tree in the hole, fill it with soil and lightly pack it down to remove air pockets. Water the base thoroughly to help the roots settle.
   </Accordion>
 </AccordionGroup>
 
-Curious about what changed in a CLI version? [Check out the CLI changelog.](/changelog/command-line)
+### Nurture Your Growing Tree
+
+<AccordionGroup>
+
+<Accordion icon="water" title="Step 3: Regular Watering">
+  Water your apple tree consistently, especially in dry conditions. Aim for about 1 inch of water per week during the growing season. Adding mulch around the base of the tree can help retain moisture and suppress weeds.
+</Accordion>
+
+<Accordion icon="tree" title="Step 4: Pruning and Support">
+  Pruning your apple tree during the dormant season will encourage healthy growth. Remove any dead or weak branches to allow more sunlight and air circulation. If needed, use stakes or supports to help the tree grow straight and tall.
+</Accordion>
+
+</AccordionGroup>
+
+## Customize Your Orchard
+
+Every apple tree variety has unique care needs. Depending on the type you plant, your tree might prefer specific watering, pruning, or growing conditions.
+
+<CardGroup>
+  <Card
+    title="Choose Your Apple Variety"
+    icon="apple-whole"
+    href="/apple-varieties"
+  >
+    Learn about different apple varieties and choose the best one for your garden.
+  </Card>
+
+  <Card
+    title="Training Your Tree"
+    icon="pruning-shears"
+    href="/pruning-guide"
+  >
+    Explore pruning techniques to shape your tree and maximize fruit production.
+  </Card>
+</CardGroup>
+
+### Apple Tree Troubleshooting
+
+<Tip>
+  Apple trees usually take 2-5 years to bear fruit, so patience is key!
+</Tip>
+
+If you encounter any problems while growing your apple tree, here are some common issues and how to address them.
+
+<AccordionGroup>
+  <Accordion title="Apple tree isn’t growing well">
+    Check the soil for proper drainage and nutrient levels. You might need to amend the soil with compost or fertilizer to boost growth.
+  </Accordion>
+  <Accordion title="Pests are damaging the tree">
+    Use natural pest control methods, like neem oil or introducing beneficial insects such as ladybugs, to ward off pests without harming your tree.
+  </Accordion>
+  <Accordion title="Tree isn’t producing fruit">
+    Apple trees require cross-pollination, so make sure you have at least two different varieties planted nearby for best results.
+  </Accordion>
+</AccordionGroup>
+
+## Harvesting Your Apples
+
+Once your apple tree matures, you’ll know it’s time to harvest when the apples are firm, fully colored, and come off the tree with a gentle twist.
+
+<Frame>
+  <img src="/images/apple-harvest.jpg" style={{ borderRadius: '0.5rem' }} />
+</Frame>
+
+### Tips for Harvesting
+
+- Harvest apples when they’re firm and fully colored.
+- Apples that easily twist off are ready to eat.
+- Store apples in a cool, dry place for longevity.
+
+## Conclusion
+
+Growing apple trees requires time, care, and patience. By following these steps, you’ll have a healthy apple tree that produces delicious fruit for years to come. For more in-depth tips, visit our [apple tree growing guide](/apple-tree-guide).
