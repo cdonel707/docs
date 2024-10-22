@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Chris's API",
+  "name": "Chris's special API",
   "logo": {
     "dark": "/logo/applelogo.svg",
     "light": "/logo/applelogo.svg"
