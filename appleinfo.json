@@ -1,0 +1,196 @@
+
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Apple Info API",
+    "version": "1.0.0",
+    "description": "An API that provides detailed information about different apple varieties."
+  },
+  "servers": [
+    {
+      "url": "https://api.appleinfo.com/v1"
+    }
+  ],
+  "paths": {
+    "/apples/granny-smith": {
+      "get": {
+        "summary": "Get information about Granny Smith apples",
+        "description": "Provides details on Granny Smith apples, including their flavor, origin, and best uses.",
+        "responses": {
+          "200": {
+            "description": "Granny Smith apple information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "example": "Granny Smith"
+                    },
+                    "origin": {
+                      "type": "string",
+                      "example": "Australia"
+                    },
+                    "flavor": {
+                      "type": "string",
+                      "example": "Tart and crisp"
+                    },
+                    "bestUses": {
+                      "type": "string",
+                      "example": "Baking, salads, snacking"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/apples/honeycrisp": {
+      "get": {
+        "summary": "Get information about Honeycrisp apples",
+        "description": "Provides details on Honeycrisp apples, including their flavor, origin, and best uses.",
+        "responses": {
+          "200": {
+            "description": "Honeycrisp apple information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "example": "Honeycrisp"
+                    },
+                    "origin": {
+                      "type": "string",
+                      "example": "Minnesota, USA"
+                    },
+                    "flavor": {
+                      "type": "string",
+                      "example": "Sweet and crisp"
+                    },
+                    "bestUses": {
+                      "type": "string",
+                      "example": "Snacking, salads"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/apples/fuji": {
+      "get": {
+        "summary": "Get information about Fuji apples",
+        "description": "Provides details on Fuji apples, including their flavor, origin, and best uses.",
+        "responses": {
+          "200": {
+            "description": "Fuji apple information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "example": "Fuji"
+                    },
+                    "origin": {
+                      "type": "string",
+                      "example": "Japan"
+                    },
+                    "flavor": {
+                      "type": "string",
+                      "example": "Sweet and firm"
+                    },
+                    "bestUses": {
+                      "type": "string",
+                      "example": "Snacking, baking"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/apples/golden-delicious": {
+      "get": {
+        "summary": "Get information about Golden Delicious apples",
+        "description": "Provides details on Golden Delicious apples, including their flavor, origin, and best uses.",
+        "responses": {
+          "200": {
+            "description": "Golden Delicious apple information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "example": "Golden Delicious"
+                    },
+                    "origin": {
+                      "type": "string",
+                      "example": "West Virginia, USA"
+                    },
+                    "flavor": {
+                      "type": "string",
+                      "example": "Sweet and mellow"
+                    },
+                    "bestUses": {
+                      "type": "string",
+                      "example": "Snacking, pies, applesauce"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/apples/gala": {
+      "get": {
+        "summary": "Get information about Gala apples",
+        "description": "Provides details on Gala apples, including their flavor, origin, and best uses.",
+        "responses": {
+          "200": {
+            "description": "Gala apple information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "example": "Gala"
+                    },
+                    "origin": {
+                      "type": "string",
+                      "example": "New Zealand"
+                    },
+                    "flavor": {
+                      "type": "string",
+                      "example": "Mild and sweet"
+                    },
+                    "bestUses": {
+                      "type": "string",
+                      "example": "Snacking, salads"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
